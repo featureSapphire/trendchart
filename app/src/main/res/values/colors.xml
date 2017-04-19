@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#1c1d21</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="select_bg">@color/green_sky</color>
+  <color name="line">#E7E7E7</color>
+  <color name="gray_bg">#F7F7F7</color>
+  <color name="gray_text">@color/colorPrimaryDark</color>
+
+
+  <color name="whilte_text">#FFFFFF</color>
+  <!--最大连出颜色-->
+  <color name="blue_sky">#247E9E</color>
+  <!--最大遗漏颜色-->
+  <color name="brown">#BD9677</color>
+  <!--平均遗漏颜色-->
+  <color name="green_sky">#557E2B</color>
+  <!--淡紫色-->
+  <color name="purple_sky">#C6A1CE</color>
+
+
+  <!--连接线的颜色-->
+  <color name="connect_line_color">#C6A1CE</color>
+
+</resources>

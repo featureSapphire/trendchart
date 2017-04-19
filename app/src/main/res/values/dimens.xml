@@ -1,0 +1,32 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="ball_width">47dp</dimen>
+
+
+  <dimen name="numberHeith">30dp</dimen>
+  <dimen name="numberWidth">30dp</dimen>
+  <dimen name="left_list_width">70dp</dimen>
+  <dimen name="top_list_width">60dp</dimen>
+  <!--选中背景距离上下左右的padding-->
+  <dimen name="select_bg_padding">2dp</dimen>0
+
+<!--正常的字体的颜色-->
+  <dimen name="normal_text_size">15dp</dimen>
+  <!--上角标字体大小-->
+  <dimen name="sup_text_size">5dp</dimen>
+  <!--上脚标半径-->
+  <dimen name="sup_radius">8dp</dimen>
+  <!--分割线的宽度-->
+  <dimen name="lineWith">1dp</dimen>
+
+  <!--连接线的宽度-->
+  <dimen name="connect_line_width">3dp</dimen>
+
+
+
+
+
+
+</resources>

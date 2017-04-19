@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="chart">
+    <!--上下滑动，左右滑动，不可以滑动，上下左右-->
+    <attr name="scroll_model" format="integer"/>
+
+    <!--数字宽度，在左右可滑动的时候设置-->
+    <attr name="number_width" format="dimension"/>
+    <!--数字的高度-->
+    <attr name="number_heith" format="dimension"/>
+
+    <!--线的宽度-->
+    <attr name="line_width" format="dimension"/>
+    <!--线颜色-->
+    <attr name="line_color" format="color"/>
+
+    <!--选中的字体颜色-->
+    <attr name="select_textcolor" format="color"/>
+    <!--选中的背景颜色-->
+    <attr name="select_bgcolor" format="color"/>
+    <!--背景的形状-->
+    <attr name="select_bg_shap" format="integer"/>
+    <!--上下左右的padding-->
+    <attr name="select_bg_padding" format="dimension"/>
+
+    <!--对于不可以左右滑动的形况-->
+    <!--横向友多少个数字-->
+    <attr name="line_number" format="integer"/>
+    <!--主要针对，上下不可以滑动,因为友toplist，所以，应该考虑top List也会占有高度-->
+    <!--纵向有多少个数字-->
+    <attr name="row_number" format="integer"/>
+
+    <!--正常的字体颜色-->
+    <attr name="normal_textcolor" format="color"/>
+    <attr name="normal_textsize" format="dimension"/>
+    <!--正常的奇数行背景颜色-->
+    <attr name="normal_jibg_color" format="color"/>
+    <!--正常的偶数行背景颜色-->
+    <attr name="normal_oubg_color" format="color"/>
+
+    <!--上脚标，字体颜色-->
+    <attr name="sup_textcolor" format="color"/>
+    <!--上脚标，背景颜色-->
+    <attr name="sup_bgcolor" format="color"/>
+    <!--上角标字体大小-->
+    <attr name="sup_textsize" format="dimension"/>
+    <!--上角标半径-->
+    <attr name="sup_radius" format="dimension"/>
+
+    <!--上面列表的背景颜色-->
+    <attr name="top_list_bgcolor" format="color"/>
+
+    <!--连接线的宽度-->
+    <attr name="connect_line_width" format="dimension"/>
+    <!--连接线的颜色-->
+    <attr name="connect_line_color" format="color"/>
+
+
+    <!--添加的统计数据的颜色-->
+    <!--出现次数-->
+    <attr name="count_textcolor" format="color"/>
+    <!--平均遗漏-->
+    <attr name="avgMiss_textcolor" format="color"/>
+    <!--最大遗漏-->
+    <attr name="maxMiss_textcolor" format="color"/>
+    <!--最大连出-->
+    <attr name="maxSeries_textcolor" format="color"/>
+    <!--在是可以竖直滑动的情况下，的权重操作，以逗号分割-->
+    <attr name="weight_all" format="string"/>
+    <!--是否连线-->
+    <attr name="isconnect_line" format="boolean"/>
+
+
+
+
+  </declare-styleable>
+</resources>
