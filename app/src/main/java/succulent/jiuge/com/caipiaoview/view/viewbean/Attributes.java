@@ -226,7 +226,9 @@ public class Attributes {
 
     sup_textsize = localTypedArray.getDimension(R.styleable.chart_sup_textsize
         , ResuorceHepler.getDimension(context, R.dimen.sup_text_size));
-
+    /**
+     * 脚标圆角半径
+     */
     sup_radius = localTypedArray.getDimension(R.styleable.chart_sup_radius
         , ResuorceHepler.getDimension(context, R.dimen.sup_radius));
 
@@ -253,7 +255,7 @@ public class Attributes {
         , ResuorceHepler.getColor(context, R.color.connect_line_color));
 
     weight_all = localTypedArray.getString(R.styleable.chart_weight_all);
-    isconnect_line = localTypedArray.getBoolean(R.styleable.chart_isconnect_line,false);
+    isconnect_line = localTypedArray.getBoolean(R.styleable.chart_isconnect_line, false);
   }
 
   public int getTotalWeight() {
@@ -270,10 +272,11 @@ public class Attributes {
 
   /**
    * 使用了权重模式
+   *
    * @return
    */
   public boolean isWeihtMode() {
-    return (scrollModel == SCROLL_V ||scrollModel==SCROLL_NO)&& getTotalWeight()>0;
+    return (scrollModel == SCROLL_V || scrollModel == SCROLL_NO) && getTotalWeight() > 0;
   }
 
   private List<Integer> weight;
