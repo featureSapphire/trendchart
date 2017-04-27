@@ -172,6 +172,12 @@ public class Attributes {
    */
   public boolean isconnect_line;
 
+  /**
+   * 初始化
+   *
+   * @param context
+   * @param attrs
+   */
   public void init(Context context, AttributeSet attrs) {
     minScollLength = ViewConfiguration.get(context).getScaledTouchSlop();
     TypedArray localTypedArray = context.obtainStyledAttributes(attrs, R.styleable.chart);
